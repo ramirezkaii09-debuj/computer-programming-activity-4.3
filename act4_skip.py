@@ -1,0 +1,9 @@
+total_sum = 0
+
+for i in range(1, 51):
+    if i % 3 == 0:
+        continue
+    print(i, end=" ")
+    total_sum += i
+
+print(f"\nSum: {total_sum}")
